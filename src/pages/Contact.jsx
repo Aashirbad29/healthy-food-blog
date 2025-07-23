@@ -7,9 +7,29 @@ export default function Contact() {
       <section className="contact-section">
         <div className="container">
           <h1 className="title">Contact Us</h1>
-          <p style={{ textAlign: "center", maxWidth: 600, margin: "0 auto" }}>
-            You can reach us at <strong>healthy@bites.com</strong> <br />
-            or follow us on Instagram <strong>@healthybites</strong>.
+
+          <div className="card" style={{ maxWidth: 500, margin: "0 auto", textAlign: "center" }}>
+            <div style={{ padding: "2rem 1.5rem" }}>
+              <p className="card-body">
+                📧 Email us at:
+                <br />
+                <strong>Vital@Spoon.com</strong>
+              </p>
+
+              <p className="card-body" style={{ marginTop: "1rem" }}>
+                📷 Follow us on Instagram:
+                <br />
+                <strong>@VitalSpoon</strong>
+              </p>
+
+              <button className="hero-button" style={{ marginTop: "2rem" }}>
+                Send a Message
+              </button>
+            </div>
+          </div>
+
+          <p className="card-body" style={{ textAlign: "center", marginTop: "3rem", fontStyle: "italic" }}>
+            “We’d love to hear from you – whether it’s feedback, a question, or just to say hello!”
           </p>
         </div>
       </section>

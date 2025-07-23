@@ -17,8 +17,8 @@ export default function Home() {
     <PageWrapper>
       <section className="hero-section">
         <div className="hero-text">
-          <h1><span className="highlight">Fresh</span> & tasty salads</h1>
-          <p>Relax please, we’ve got you covered every day of the week</p>
+          <h1><span className="highlight">Healthy</span> & tasty recipes</h1>
+          <p>Dive into a world of vibrant flavors, fresh ingredients, and feel-good meals that nourish your body and delight your senses. Let’s make healthy... irresistible.</p>
           <button className="hero-button" onClick={() => navigate("/recipes")}>
             Discover recipes
           </button>

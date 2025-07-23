@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background: #1d1d1f;
-  color: #fff;
+  color: #ffee6a;
   padding: 1rem;
   flex-wrap: wrap;
 }
@@ -20,6 +20,7 @@ body {
 .navbar-logo {
   font-size: 1.4rem;
   font-weight: bold;
+  color: #ffee6a;
 }
 
 .navbar-toggle {
@@ -38,7 +39,7 @@ body {
 }
 
 .navbar-links a {
-  color: white;
+  color: #ffee6a;
   text-decoration: none;
   font-size: 1rem;
 }
@@ -97,7 +98,7 @@ body {
 
 .hero-text p {
   font-size: 1rem;
-  color: #555;
+  color: #131212;
   margin-bottom: 1.5rem;
 }
 
@@ -315,7 +316,7 @@ body {
 /* Footer */
 .footer {
   background-color: #1d1d1f;
-  color: #fff;
+  color: #ffee6a;
   padding: 1.5rem 1rem;
   text-align: center;
   margin-top: 3rem;
@@ -335,7 +336,7 @@ body {
 }
 
 .footer-links a {
-  color: #fff;
+  color: #ffee6a;
   text-decoration: none;
   font-size: 0.95rem;
 }

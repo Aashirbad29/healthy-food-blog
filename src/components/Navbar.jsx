@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">VitalSpoon</div>
+      <Link to="/" className="navbar-logo" onClick={() => setOpen(false)}>
+        VitalSpoon
+      </Link>
       <button className="navbar-toggle" onClick={() => setOpen(!open)}>
         ☰
       </button>
